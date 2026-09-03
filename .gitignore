@@ -1,0 +1,10 @@
+# Local generated images, drafts and publishing packages
+output/
+
+# Local credentials and editor/OS files
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+.vscode/
