@@ -8,3 +8,23 @@ output/
 Thumbs.db
 .DS_Store
 .vscode/
+
+# Private local workbench, account records and generated artifacts
+node_modules/
+.artifact_runtime/
+.private/
+outputs/
+.base-*.json
+.codex-base-*
+feishu-base-auth.png
+account/*
+!account/assets/
+account/assets/*
+!account/assets/avatar.jpg
+web/
+editorial/
+drafts/
+ACCOUNT_WORKFLOW.md
+workflow.py
+build_xhs_tracker.mjs
+__pycache__/
